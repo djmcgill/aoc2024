@@ -75,3 +75,10 @@ executable d03
     build-depends:    base ^>=4.17.2.1, containers, extra, regex-tdfa
     hs-source-dirs:   d03
     default-language: GHC2021
+
+executable d04
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.17.2.1, containers, extra
+    hs-source-dirs:   d04
+    default-language: GHC2021
