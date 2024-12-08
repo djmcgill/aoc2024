@@ -89,3 +89,10 @@ executable d05
     build-depends:    base ^>=4.17.2.1, containers, extra, split
     hs-source-dirs:   d05
     default-language: GHC2021
+
+executable d08
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.17.2.1, containers, extra, split, NumInstances
+    hs-source-dirs:   d08
+    default-language: GHC2021
